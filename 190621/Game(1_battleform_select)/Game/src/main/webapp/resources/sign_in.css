@@ -1,0 +1,47 @@
+
+.login_content {
+  width: 320px;
+  margin: 16% auto;
+  padding-bottom: 15px;
+}
+
+.login_content .logo_sec {
+  width: 100%;
+  text-align: center;
+  border-bottom: 3px solid #393b3f;
+  margin-bottom: 35px;
+}
+
+.login_content .logo_sec h3 {
+  font-size: 16px;
+  font-family: Dotum;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.login_content .login_sec {
+  width: 100%;
+  overflow: hidden;
+}
+
+.login_content .login_sec .login_input {
+  min-width: 220px;
+  height: 40px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  float: left;
+}
+
+.login_content .login_sec .login_btn {
+  width: 90px;
+  height: 90px;
+  background: #393b3f;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  font-weight: bold;
+  cursor: pointer;
+}

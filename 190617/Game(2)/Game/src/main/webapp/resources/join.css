@@ -1,0 +1,60 @@
+
+.join_content {
+  width: 620px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.join_content .logo_sec {
+  width: 100%;
+  text-align: center;
+  border-bottom: 3px solid #393b3f;
+  margin-bottom: 35px;
+}
+
+.join_content .logo_sec h3 {
+  font-size: 16px;
+  font-family: Dotum;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.join_content .join_sec {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.join_content .join_sec label {
+  width: 20%;
+  height: 40px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  display: inline-block;
+  text-align: right;
+}
+
+.join_content .join_sec input {
+  width: 70%;
+  height: 40px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.join_content .join_sec .join_btn {
+  width: 80%;
+  height: 40px;
+  background: #393b3f;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  margin: 30px 0px 0px 0px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}

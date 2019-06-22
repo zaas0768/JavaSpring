@@ -1,0 +1,116 @@
+.player_list {
+  padding: 10px 20px;
+}
+
+.player_list:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.player_list li {
+  display: block;
+  width: 200px;
+  height: 250px;
+  float: left;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  line-height: 2em;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.player_list li h3 {
+  margin: 0px 0px 20px 0px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.player_list button {
+  display: inline-block;
+  padding: 5px 60px;
+  background: #3f6765;
+  border: 1px solid #1f4f45;
+  cursor: pointer;
+  margin: 20px 0px 0px 0px;
+  color: #fff;
+}
+
+.player_list .no {
+  font-size: 16px;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  border-radius: 20px;
+  width: 40px;
+  height: 35px;
+  text-align: center;
+  background: #dd6666;
+  color: #fff;
+  padding: 5px 0px 0px 0px;
+}
+
+.player_list button:hover {
+  background: #333;
+}
+
+.top_button_section {
+  padding: 10px 50px;
+}
+
+.top_button_section:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.top_button {
+  display: inline-block;
+  padding: 5px 30px;
+  background: #4f3f45;
+  border: 1px solid #4f3f45;
+  cursor: pointer;
+  margin: 10px;
+  color: #fff;
+  float: right;
+  text-decoration: none;
+  border-radius: 5px 0px;
+}
+
+.top_button:hover {
+  background: #333;
+}
+
+.select_section {
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.select_section:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.select_section input[type="text"] {
+  padding: 5px 20px;
+  display: inline-block;
+  border: 1px solid #eee;
+  height: 20px;
+  vertical-align: top;
+}
+
+.select_section input[type="submit"] {
+  background: #666;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 5px 20px;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.select_section input[type="submit"]:hover{
+  background: #aaa;
+}
