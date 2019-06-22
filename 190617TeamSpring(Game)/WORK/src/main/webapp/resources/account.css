@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+.go_home {
+	width: 120px;
+	height: 50px;
+	background: #393b3f;
+	color: #fff;
+	border: none;
+	margin-left: 10px;
+	font-size: 14px;
+	letter-spacing: -0.5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.create_content {
+	width: 320px;
+	margin: 16% auto;
+	padding-bottom: 15px;
+}
+
+/*로고*/
+.create_content .create_sec {
+	width: 100%;
+	text-align: center;
+	border-bottom: 3px solid #393b3f;
+	margin-bottom: 35px;
+}
+
+.create_content .create_sec img {
+	margin-bottom: 10px;
+}
+
+.create_content .create_sec h3 {
+	font-size: 16px;
+	font-family: Dotum;
+	color: #222;
+	margin-bottom: 40px;
+}
+
+/*로그인박스*/
+.create_content .login_title {
+	color: #222;
+	font-size: 18px;
+	letter-spacing: -0.5px;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.create_content .create_sec {
+	width: 100%;
+	overflow: hidden;
+}
+
+.create_content .create_sec .create_input {
+	min-width: 220px;
+	height: 40px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	float: left;
+}
+
+.create_content .create_sec .create_btn {
+	width: 90px;
+	height: 140px;
+	background: #393b3f;
+	color: #fff;
+	border: none;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	font-size: 14px;
+	letter-spacing: -0.5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.create_content .create_sec .update_btn {
+	width: 90px;
+	height: 90px;
+	background: #393b3f;
+	color: #fff;
+	border: none;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	font-size: 14px;
+	letter-spacing: -0.5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.create_content .create_sec .search_btn {
+	width: 90px;
+	height: 40px;
+	background: #393b3f;
+	color: #fff;
+	border: none;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-size: 14px;
+	letter-spacing: -0.5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.create_content .create_sec .search_btn2 {
+	width: 100%;
+	height: 40px;
+	background: #393b3f;
+	color: #fff;
+	border: none;
+	margin-bottom: 30px;
+	font-size: 14px;
+	letter-spacing: -0.5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.create_content .create_sec .search_btn3 {
+	word-wrap: break-word;
+	width: 90px;
+	height: 90px;
+	background: #393b3f;
+	color: #fff;
+	border: none;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	letter-spacing: -0.5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.create_content .create_sec input[type="checkbox"]+label {
+	display: block;
+	clear: both;
+}
+
+.create_content .create_sec input[type="checkbox"]+label button.checkbox_icon
+	{
+	vertical-align: bottom;
+}

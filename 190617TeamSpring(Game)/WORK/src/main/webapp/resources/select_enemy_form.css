@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.go_home {
+	width: 120px;
+	height: 50px;
+	background: #393b3f;
+	color: #fff;
+	border: none;
+	margin-left: 10px;
+	font-size: 14px;
+	letter-spacing: -0.5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+table {
+	width: 100%;
+}
+
+td{
+	background: #eee;
+}
+
+th {
+	background: #eee;
+	padding: 5px;
+}
+
+td {
+	text-align: center;
+	padding: 5px;
+}
+
+th, td {
+	border: 1px solid #eee;
+}
